@@ -22,7 +22,7 @@ function isSolved(initial, sudoku) {
   });
 }
 
-it('should solveSudoku 1', () => {
+it.only('should solveSudoku 1', () => {
   const initial = [
     [5, 3, 4, 6, 7, 8, 9, 0, 0],
     [6, 7, 2, 1, 9, 5, 3, 4, 8],
